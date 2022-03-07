@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.Controllers.ShowListeAbsence">
+   <children>
+      <TableView fx:id="tableView" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+            <TableColumn fx:id="dateColumn" prefWidth="185.5999755859375" text="Date absence" />
+            <TableColumn fx:id="heureDebColumn" prefWidth="104.79998779296875" text="Heure debut" />
+            <TableColumn fx:id="heureFinColumn" prefWidth="88.0" text="Heure fin" />
+            <TableColumn fx:id="moduleColumn" prefWidth="104.0" text="Module" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

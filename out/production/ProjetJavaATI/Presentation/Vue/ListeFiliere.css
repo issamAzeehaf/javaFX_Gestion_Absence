@@ -1,0 +1,191 @@
+#background{
+    -fx-background-color: linear-gradient(to left, #b1d0e0, #94b5c8, #779bb0, #5b8199, #406882);
+}
+#BDCC1 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #b1d0e0 0%, #94b5c8 100%),
+            #779bb0,
+            #5b8199,
+            radial-gradient(center 50% 50%, radius 100%, #779bb0, #5b8199);
+    -fx-effect: dropshadow( gaussian , #406882 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#BDCC1:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #779bb0 0%, #5b8199 100%),
+            #b1d0e0,
+            #94b5c8,
+            radial-gradient(center 50% 50%, radius 100%, #b1d0e0, #94b5c8);
+}
+#BDCC1:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#BDCC1 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #b1d0e0 , 0,0,0,2 );
+}
+
+
+
+#BDCC2 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #b1d0e0 0%, #94b5c8 100%),
+            #779bb0,
+            #5b8199,
+            radial-gradient(center 50% 50%, radius 100%, #779bb0, #5b8199);
+    -fx-effect: dropshadow( gaussian , #406882 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#BDCC2:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #779bb0 0%, #5b8199 100%),
+            #b1d0e0,
+            #94b5c8,
+            radial-gradient(center 50% 50%, radius 100%, #b1d0e0, #94b5c8);
+}
+#BDCC2:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#BDCC2 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #b1d0e0 , 0,0,0,2 );
+}
+
+
+#BDCC3 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #b1d0e0 0%, #94b5c8 100%),
+            #779bb0,
+            #5b8199,
+            radial-gradient(center 50% 50%, radius 100%, #779bb0, #5b8199);
+    -fx-effect: dropshadow( gaussian , #406882 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#BDCC3:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #779bb0 0%, #5b8199 100%),
+            #b1d0e0,
+            #94b5c8,
+            radial-gradient(center 50% 50%, radius 100%, #b1d0e0, #94b5c8);
+}
+#BDCC3:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#BDCC3 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #b1d0e0 , 0,0,0,2 );
+}
+
+
+
+
+#GLSID1 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #b1d0e0 0%, #94b5c8 100%),
+            #779bb0,
+            #5b8199,
+            radial-gradient(center 50% 50%, radius 100%, #779bb0, #5b8199);
+    -fx-effect: dropshadow( gaussian , #406882 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#GLSID1:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #779bb0 0%, #5b8199 100%),
+            #b1d0e0,
+            #94b5c8,
+            radial-gradient(center 50% 50%, radius 100%, #b1d0e0, #94b5c8);
+}
+#GLSID1:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#GLSID1 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #b1d0e0 , 0,0,0,2 );
+}
+
+
+
+
+#GLSID2 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #b1d0e0 0%, #94b5c8 100%),
+            #779bb0,
+            #5b8199,
+            radial-gradient(center 50% 50%, radius 100%, #779bb0, #5b8199);
+    -fx-effect: dropshadow( gaussian , #406882 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#GLSID2:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #779bb0 0%, #5b8199 100%),
+            #b1d0e0,
+            #94b5c8,
+            radial-gradient(center 50% 50%, radius 100%, #b1d0e0, #94b5c8);
+}
+#GLSID2:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#GLSID2 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #b1d0e0 , 0,0,0,2 );
+}
+
+
+
+#GLSID3 {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #b1d0e0 0%, #94b5c8 100%),
+            #779bb0,
+            #5b8199,
+                radial-gradient(center 50% 50%, radius 100%, #779bb0, #5b8199);
+    -fx-effect: dropshadow( gaussian , #406882 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#GLSID3:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #779bb0 0%, #5b8199 100%),
+            #b1d0e0,
+            #94b5c8,
+            radial-gradient(center 50% 50%, radius 100%, #b1d0e0, #94b5c8);
+}
+#GLSID3:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#GLSID3 Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #b1d0e0 , 0,0,0,2 );
+}
+
+#nomProf{
+    -fx-text-fill: black;
+}

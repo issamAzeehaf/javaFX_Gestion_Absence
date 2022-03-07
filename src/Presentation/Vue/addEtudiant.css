@@ -1,0 +1,45 @@
+#buttonEnregistrer{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #B1D0E0 0%, #B1D0E0 100%),
+            #B1D0E0,
+            #B1D0E0,
+            radial-gradient(center 50% 50%, radius 100%, #B1D0E0, #B1D0E0);
+    -fx-effect: dropshadow( gaussian , #B1D0E0 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#buttonAnnuler{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #B1D0E0 0%, #B1D0E0 100%),
+            #B1D0E0,
+            #B1D0E0,
+            radial-gradient(center 50% 50%, radius 100%, #B1D0E0, #B1D0E0);
+    -fx-effect: dropshadow( gaussian , #B1D0E0 , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#buttonEnregistrer:hover{
+    -fx-background-color:
+            linear-gradient(#f0ff35, #a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+#buttonAnnuler:hover{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#background{
+    -fx-background-color: linear-gradient(to left, #1A374D, #406882);;
+}

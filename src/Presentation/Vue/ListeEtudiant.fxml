@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="912.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Presentation.Controllers.ListEtudiantController">
+   <children>
+      <TableView fx:id="tableView" layoutX="303.0" layoutY="129.0" prefHeight="433.0" prefWidth="602.0">
+        <columns>
+          <TableColumn fx:id="nom" prefWidth="80.79998779296875" text="Nom" />
+            <TableColumn fx:id="prenom" prefWidth="96.0" text="Prenom" />
+          <TableColumn fx:id="email" minWidth="0.0" prefWidth="244.8001708984375" text="E-mail" />
+            <TableColumn fx:id="telephone" minWidth="8.79998779296875" prefWidth="267.9998779296875" text="Telephone" />
+        </columns>
+      </TableView>
+      <AnchorPane fx:id="left" prefHeight="605.0" prefWidth="262.0" style="-fx-background-color: 1A374D;">
+         <children>
+            <Button fx:id="ButtonModifier"  onAction="#updateEtudiant" layoutX="65.0" layoutY="236.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="146.0" text="Modifier" />
+            <Button fx:id="ButtonAbsence" onAction="#createAbsence" layoutX="65.0" layoutY="331.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="146.0" text="Absence" />
+            <Button fx:id="ButtonDelete" onAction="#deleteEtudiant" layoutX="65.0" layoutY="144.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="146.0" text="delete" />
+            <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="74.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/edit.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="74.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/add.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="75.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/delete.png" />
+               </image>
+            </ImageView>
+
+         </children>
+      </AnchorPane>
+      <Button fx:id="ButtonAdd" layoutX="303.0" layoutY="75.0" mnemonicParsing="false" onAction="#addEtudiant" prefHeight="47.0" prefWidth="196.0" text="Add Etudiant" />
+      <Button fx:id="ButtonListeAbsence" onAction="#showListAbsence" layoutX="506.0" layoutY="75.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="196.0" text="Liste d'absence" />
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="312.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="29.0" layoutX="512.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/show.png" />
+         </image>
+      </ImageView>
+      
+   </children>
+</AnchorPane>
